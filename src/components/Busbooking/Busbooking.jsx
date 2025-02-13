@@ -7,8 +7,10 @@ export default function BusBooking() {
   const [isReturn, setIsReturn] = useState(false);
 
   return (
+    
     <div className="relative w-full min-h-screen flex flex-col items-center justify-center bg-gray-100">
-      {/* Background Image */}
+      {/* Background Image */} 
+      <h1>HELLO SONA</h1>
       <div className="absolute top-0 left-0 w-full h-full bg-cover bg-center" style={{ backgroundImage: "url('https://gst-contracts.s3.ap-southeast-1.amazonaws.com/uploads/bcc/cms/asset/avatar/324800/banner6.jpg')" }}></div>
       
       {/* Overlay */}
